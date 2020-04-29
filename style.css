@@ -1,0 +1,23 @@
+.image {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: blue;
+    background-size: cover;
+    min-height: 50%;
+  
+    background-attachment: fixed;
+  }
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: white;
+    text-align:center
+  }
+
+.textSection {
+    background-color: blue;
+    padding:50px 80px;
+  }
