@@ -1,3 +1,9 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+}
+
 .image {
     position: relative;
     background-position: center;
@@ -11,13 +17,61 @@
 
 h3 {
     letter-spacing: 5px;
-    text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
+    font-size: 20px;
     color: white;
-    text-align:center
+    text-align:center;
+  }
+
+  h2 {
+    text-align:center;
+    letter-spacing:5px;
+    text-transform: uppercase;
+  }
+
+  a {
+    color: white;
+  }
+
+  a:hover{
+    background-color:rgb(34, 34, 34);
+  }
+
+  p {
+    font-size:20px;
+    text-align:center;
+  }
+
+  ul{
+    list-style-type: none;
+    text-align:center;
+    font-size:18px;
+  }
+
+  dl{
+    text-align:center;
+  }
+
+  dt{
+    font-size:20px;
+  }
+
+  dd{
+    font-size: 17px;
   }
 
 .textSection {
     background-color: blue;
     padding:50px 80px;
+    color:white;
+
+  }
+
+  .navigation{
+    padding: 10px 80px;
+    background-color: black;
+  }
+
+  .link{
+    padding:10px 10px;
+    text-decoration:none;
   }
