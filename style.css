@@ -4,16 +4,108 @@ body, html {
   font: 400 15px/1.8 "Lato", sans-serif;
 }
 
-.image {
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: blue;
-    background-size: cover;
-    min-height: 50%;
-  
-    background-attachment: fixed;
-  }
+.logo, .changeup, .logan, .taylor, .worlds, .towertakevoer, .trophies, .robot, .natm, .notebook, .yealey, .covcath, .turkeyfoot, .impact, .service {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: blue;
+  background-size: cover;
+  min-height: 100%;
+
+  background-attachment: fixed;
+}
+
+.logo, .changeup, .logan, .taylor, .towertakeover, .trophies, .robot, .notebook, .yealey, .covcath, .impact, .service {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: blue;
+  background-size: cover;
+
+  background-attachment: fixed;
+  min-height: 50%;
+}
+
+.logo {
+  background-image: url("logo.png");
+  min-height: 100%;
+  background-size: auto;
+}
+
+.changeup{
+  background-image: url("change\ up\ image.png");
+}
+
+.logan{
+  background-image: url("logan2.jpg");
+}
+
+.taylor{
+  background-image: url("Taylor.jpg");
+}
+
+.worlds{
+  background-image:url("933A4990.JPG");
+}
+
+.towertakeover{
+  background-image:url("cube.JPG");
+  min-height: 100%;
+  background-size: auto;
+}
+
+.trophies{
+  background-image:url("Trophies.jpg");
+}
+
+.robot{
+  background-image:url("Robot.jpg");
+}
+
+.natm{
+  background-image:url("natm.jpg");
+}
+
+.service{
+  background-image:url("oyler_group.jpg");
+  min-height: 100%;
+  background-size: auto;
+}
+
+.impact{
+  background-image:url("Community\ video\ picture.png");
+}
+
+.notebook{
+  background-image:url("Notebook.jpg");
+}
+
+.yealey{
+  background-image:url("Yealey.jpg");
+}
+
+.covcath{
+  background-image:url("Campers\ group2.jpg");
+}
+
+.turkeyfoot{
+  background-image:url("tf2.jpg");
+}
+
+.caption{
+  position:absolute;
+  top:40%;
+  width:100%;
+  text-align:center;
+}
+
+.border{
+  background-color: goldenrod;
+  color:white;
+  padding:18px;
+  font-size:25px;
+  letter-spacing:10px;
+}
 
 h3 {
     letter-spacing: 5px;
