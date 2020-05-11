@@ -141,6 +141,11 @@ h3 {
     text-align:center;
   }
 
+  .plink{
+    font-size:10px;
+    text-align:center;
+  }
+
   ul{
     list-style-type: none;
     text-align:center;
