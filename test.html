@@ -1,39 +1,122 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-html {
-  scroll-behavior: smooth;
-}
 
-#section1 {
-  height: 600px;
-  background-color: pink;
-}
+<title>Revelation</title>
 
-#section2 {
-  height: 600px;
-  background-color: yellow;
-}
-</style>
-</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 <body>
 
-<h1>Smooth Scroll</h1>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-<div class="main" id="section1">
-  <h2>Section 1</h2>
-  <p>Click on the link to see the "smooth" scrolling effect.</p>
-  <a href="#section2">Click Me to Smooth Scroll to Section 2 Below</a>
-  <p>Note: Remove the scroll-behavior property to remove smooth scrolling.</p>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<!--Logo-->
+<div class="logo">
+    <div class="caption">
+        <span class="border"> 41091A REVELATION</span>
+    </div>
 </div>
 
-<div class="main" id="section2">
-  <h2>Section 2</h2>
-  <a href="#section1">Click Me to Smooth Scroll to Section 1 Above</a>
+<!--Opening text-->
+<div class="textSection">
+<h2>Welcome!</h2>
+<p>We are VEX Robotics team 41091A Revelation from Union Kentucky.</p>
+<p>VEX Change Up will be our fourth year competing in the VEX Robotics program.</p>
+<p>We are a private team that loves to compete and have fun 
+    with all of the other teams in our State or whatever competition we are attending</p>
+<a class="plink" href="vexrobotics.com">"Change Up" photo credit</a>
 </div>
 
-<p><strong>Note:</strong> The scroll-behavior property is not supported in Internet Explorer.</p>
+<!--Change up picture-->
+<div class="changeup">
+
+</div>
+
+<!--Meet Logan-->
+<div class="textSection">
+<h2>Meet the Team</h2>
+<h3>Logan Daugherty</h3>
+<ul>
+    <li>Grade: 9th - Freshman</li>
+    <li>Experience: 5 years in robotics, but 4 years in VEX</li>
+    <li>Leadership Role: Lead programmer and driver</li>
+    <li>Fun Fact: I learned to code without taking any online or inschool classes.</li>
+</ul>
+</div>
+
+<!--Picture of Logan-->
+<div class="logan">
+
+</div>
+
+<!--Meet Taylor-->
+<div class="textSection">
+<h3>Taylor Daugherty</h3>
+<ul>
+    <li>Grade: 10th - Sophomore</li>
+    <li>Experience: 5 years in robotics, but 4 years in VEX</li>
+    <li>Leadership Role: Lead notebook writer and social media manager</li>
+    <li>Fun Fact: I quit both volleyball and band because they were getting in the way of my time to do robotics</li>
+</ul>
+</div>
+
+<!--Picture of Taylor-->
+<div class="taylor">
+
+</div>
+
+<!--Description of VEX experience-->
+<div class="textSection">
+<h2>Our VEX Experience</h2>
+<p>Trophy Count: 22</p>
+<p>We have won 2 State Excellence Awards.</p>
+<p>We have competed in the past three VEX Robotics Competition seasons (In the Zone, Turning Point, Tower Takeover).</p>
+<p>We have qualified for the World Championship all three years we have competed.</p>
+<p>We were selected as one of the ten Community Online Challenge Winners for a World bid for the Tower Takeover season 
+    and Change Up Season.</p>
+</div>
+
+<!--Picture of us at worlds-->
+<div class="worlds">
+
+</div>
+
+<!--Navigation bar-->
+    <!--Will appear on top because of styling-->
+    <!--Must be at bottom to be on top of pictures-->
+
+<div class="navigation">
+    <a class="link" href="index.html">HOME</a>
+    <a class="link" href="service.html">COMMUNITY SERVICE</a>
+    <a class="link" href="tt.html">TOWER TAKEOVER</a>
+    <a class="link" href="test.html">TEST</a>
+</div>
 
 </body>
 </html>
