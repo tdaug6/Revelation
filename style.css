@@ -11,19 +11,21 @@ a {
 
 a:hover{
   background-color:darkgoldenrod;     /*color chosen to match theme, but still stand out*/
+  text-shadow:2px 2px rgb(141, 103, 9);
 }
 
 .navigation{
   padding: 10px 80px;
-  background-color: black;      /*color chosen to match theme, but not stand out*/
-  top:0;      /*sets the postion of the navigation bar to the top of the screen*/
-  position: fixed;    /*used to keep navigation bar on the screen*/
-  width: 100%;        /*keeps navigation bar across the entire screen*/
+  background-color: black;            /*color chosen to match theme, but not stand out*/
+  top:0;                                /*sets the postion of the navigation bar to the top of the screen*/
+  position: fixed;                      /*used to keep navigation bar on the screen*/
+  width: 100%;                          /*keeps navigation bar across the entire screen*/
+  box-shadow: 1px 1px 15px 5px rgb(68, 68, 68);
 }
 
 .link{
-  padding:10px 10px;      /*adds some padding space to give the text some room*/
-  text-decoration:none;     /*gets rid of underlining*/
+  padding:10px 10px;                    /*adds some padding space to give the text some room*/
+  text-decoration:none;                 /*gets rid of underlining*/
 }
 
 .plink{
@@ -123,8 +125,8 @@ a:hover{
 /*Setup formatting for content*/
 h2 {
   text-align:center;
-  letter-spacing:5px;     /*spreads letters out for better looking title*/
-  text-transform: uppercase;    /*makes text all caps*/
+  letter-spacing:5px;                 /*spreads letters out for better looking title*/
+  text-transform: uppercase;          /*makes text all caps*/
 }
 
 h3 {
@@ -173,9 +175,10 @@ h3 {
   }
   
   .border{
-    background-color: goldenrod;      /*chosen to match logo color*/
+    background-color: goldenrod;            /*chosen to match logo color*/
     color:white;
     padding:18px;
     font-size:25px;
     letter-spacing:10px;
+    box-shadow: 1px 1px 8px 5px darkgoldenrod;
   }
